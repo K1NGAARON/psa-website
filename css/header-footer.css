@@ -130,6 +130,10 @@
     background-color: var(--white);
 }
 
+.header.active .nav::before {
+    background-color: var(--black);
+}
+
 .nav:hover::before {
     transform: scaleX(1);
 }

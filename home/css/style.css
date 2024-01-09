@@ -69,10 +69,6 @@
     margin-top: 20px;
 }
 
-
-
-
-
 .reviews.section {
     background-color: var(--light-grey);
 }
@@ -228,6 +224,11 @@
 
 .memberships-wrapper .item .description {
     color: var(--primary);
+}
+
+.memberships-wrapper .item .intro {
+    font-weight: 700;
+    margin: 10px 0;
 }
 
 .memberships-wrapper .item .btn {

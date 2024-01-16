@@ -52,9 +52,9 @@ let text3 = document.getElementById('animated-3');
 let animatedSection = document.getElementById('animated-section');
 
 function load() {
-    animate(text1, 0, 15153, 3000);
-    animate(text2, 0, 21752, 3000);
-    animate(text3, 0, 31, 3000);
+    animate(text1, 0, 22127, 3000);
+    animate(text2, 0, 167400, 3000);
+    animate(text3, 0, 2100, 3000);
 }
 
 // Intersection Observer configuration

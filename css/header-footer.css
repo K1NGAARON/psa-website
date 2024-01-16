@@ -241,6 +241,11 @@
 }
 
 @media (max-width: 560px) {
+    .topbar,
+    .topbar.active {
+        display: none;
+    }
+
     .header .row {
         display: none;
     }

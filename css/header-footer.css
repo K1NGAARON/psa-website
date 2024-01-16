@@ -6,6 +6,41 @@
     transition: background-color 200ms linear;
 }
 
+.topbar {
+    display: none;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--primary);
+}
+
+.topbar.active {
+    display: flex;
+}
+
+.topbar .wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    width: 60%;
+}
+
+.topbar .wrapper p {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.topbar .wrapper .btn {
+    color: var(--primary);
+    background-color: var(--white);
+    font-size: 14px;
+}
+
 .header.active {
     position: fixed;
     top: 0;
@@ -43,7 +78,6 @@
 }
 
 .header .nav-logo {
-    /* margin-right: auto; */
     font-weight: 700;
 }
 
@@ -62,6 +96,7 @@
 
 .header .container .nav {
     color: var(--white);
+    font-size: 14px;
     font-weight: 700;
     text-decoration: none;
     opacity: 1;

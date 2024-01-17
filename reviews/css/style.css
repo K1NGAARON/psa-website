@@ -22,5 +22,11 @@
 @media (max-width: 560px) {
     .gallery-wrapper .item {
         width: 100%;
+        flex: 1 0 100%;
+    }
+
+    .banner.section,
+    .banner.section .row {
+        height: 50vh;
     }
 }

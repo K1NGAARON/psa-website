@@ -240,7 +240,7 @@
     transition: var(--transition);
 }
 
-@media (max-width: 560px) {
+@media (max-width: 1285px) {
     .topbar,
     .topbar.active {
         display: none;
@@ -276,5 +276,9 @@
     .header .logo, 
     .footer .logo {
         width: 75px;
+    }
+
+    .nav::before {
+        display: none;
     }
 }

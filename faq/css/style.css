@@ -108,4 +108,9 @@
     .faq .wrapper {
         width: 100%;
     }
+
+    .banner.section,
+    .banner.section .row {
+        height: 50vh;
+    }
 }

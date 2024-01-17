@@ -2,3 +2,10 @@
 .banner.section .row {
     height: 60vh;
 }
+
+@media (max-width: 560px) {
+    .banner.section,
+    .banner.section {
+        height: 50vh;
+    }
+}

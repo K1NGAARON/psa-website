@@ -1,16 +1,16 @@
 function changeReviews() {
     const reviews = [
         {
-            name: "Client name 1",
-            review: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat commodi perferendis minima nisi enim temporibus voluptatibus voluptas eligendi magni natus?",
+            name: "Sidney",
+            review: "Just wanna say thanks a lot man, before I subscribed to you I was recklessly betting and losing abit of money but after i subscribed, I learnt not to recklessly bet, listened to you and it bailed out. You're the best man thank you",
         },
         {
-            name: "Client name x",
-            review: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat commodi perferendis minima nisi enim temporibus voluptatibus voluptas eligendi magni natus?",
+            name: "John P.",
+            review: "Just wanted to say this is the best group I've been with, won many times today biggest ACCA being £224, keep up the good wood, P.s I've gone into the elite tier now, well impressed"
         },
         {
-            name: "Client name 3",
-            review: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat commodi perferendis minima nisi enim temporibus voluptatibus voluptas eligendi magni natus?",
+            name: "Will",
+            review: "PSA is truly worth it, especially elite. Been elite now for two months and have profited more than I could have ever imagined. Paid for my Holiday to Greece for 2 already!",
         },
     ];
 

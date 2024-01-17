@@ -240,7 +240,7 @@
     transition: var(--transition);
 }
 
-@media (max-width: 1285px) {
+@media (max-width: 1300px) {
     .topbar,
     .topbar.active {
         display: none;

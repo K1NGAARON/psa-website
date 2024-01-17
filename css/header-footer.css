@@ -67,14 +67,14 @@
     min-height: unset;
     align-items: center;
     justify-content: flex-end;
-    padding: 20px 30px;
+    padding: 10px 30px;
     margin: 0 auto;
     background-color: transparent;
 }
 
 .header .logo,
 .footer .logo {
-    width: 100px;
+    width: 75px;
 }
 
 .header .nav-logo {

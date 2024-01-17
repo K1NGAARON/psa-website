@@ -1,3 +1,8 @@
+.banner.section,
+.banner.section .row {
+    height: 60vh;
+}
+
 .gallery-wrapper {
     display: flex;
     flex-flow: row wrap;

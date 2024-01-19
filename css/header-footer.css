@@ -26,7 +26,7 @@
     align-items: center;
     gap: 20px;
     padding: 10px;
-    width: 60%;
+    width: fit-content;
 }
 
 .topbar .wrapper p {

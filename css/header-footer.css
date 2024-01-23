@@ -130,6 +130,16 @@
     transition: var(--transition);
 }
 
+.footer a {
+    color: var(--white);
+    transition: var(--transition);
+}
+
+.footer a:hover {
+    color: var(--primary);
+    transition: var(--transition);
+}
+
 .footer .socials-wrapper {
     margin-top: 20px;
 }

@@ -218,12 +218,16 @@
     margin-top: 40px;
 }
 
-.memberships-wrapper .item.focus {
-    border: 2px solid var(--primary);
-    margin-top: 0;
+.memberships-wrapper .item {
+    transition: var(--transition);
 }
 
-.memberships-wrapper .item.focus .heading {
+.memberships-wrapper .item:hover {
+    border: 2px solid var(--primary);
+    transition: var(--transition);
+}
+
+.memberships-wrapper .item:hover .heading {
     background-color: var(--primary);
 }
 

@@ -9,6 +9,11 @@
     height: 80vh;
 }
 
+.video-wrapper video {
+    border: 2px solid var(--primary);
+    border-radius: var(--borderRadius);
+}
+
 @media (max-width: 560px) {
     .banner.section,
     .banner.section {

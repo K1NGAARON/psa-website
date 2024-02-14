@@ -23,6 +23,15 @@
     width: 55%;
 }
 
+.banner .tag {
+    width: fit-content;
+    color: var(--white);
+    opacity: 0.4;
+    background-color: var(--primary);
+    padding: 10px 15px;
+    border-radius: var(--borderRadius);
+}
+
 .usp-wrapper {
     justify-content: center;
     width: 100%;
@@ -231,6 +240,10 @@
     background-color: var(--primary);
 }
 
+.section.cta-sm {
+    display: none;
+}
+
 @media (max-width: 560px) {
     .banner.section,
     .banner.section .row {
@@ -260,6 +273,35 @@
 
     .memberships-wrapper {
         margin-top: 0;
+    }
+
+    .section.cta-sm {
+        position: sticky;
+        bottom: 0;
+        display: flex;
+        background-color: var(--primary);
+    }
+
+    .section.cta-sm .row {
+        margin: 20px auto;
+    }
+
+    .section.cta-sm .wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section.cta-sm .wrapper .large {
+        color: var(--white);
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .section.cta-sm .wrapper .btn {
+        color: var(--primary);
+        background-color: var(--white);
     }
 }
 

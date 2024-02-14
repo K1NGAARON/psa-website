@@ -56,6 +56,11 @@
     color: var(--black);
 }
 
+.header.active .topbar .btn {
+    color: var(--primary);
+    background-color: var(--white);
+}
+
 .header.active .btn {
     color: var(--white);
     background-color: var(--primary);

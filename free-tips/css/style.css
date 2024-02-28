@@ -1,0 +1,19 @@
+.banner.section {
+    height: 100vh;
+    background-image: none;
+    background-color: var(--black);
+}
+
+.banner.section .row.flex-col.center {
+    gap: 20px;
+}
+
+.contact.grey h2 {
+    color: var(--white);
+}
+
+.form-section h1,
+.form-section p {
+    width: 100%;
+    text-align: left;
+}

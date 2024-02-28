@@ -1,11 +1,16 @@
 .banner.section {
-    height: 100vh;
     background-image: none;
     background-color: var(--black);
 }
 
+.banner.section,
+.banner-section .row.flex-col.center {
+    height: 110vh;
+}
+
 .banner.section .row.flex-col.center {
     gap: 20px;
+    flex-flow: column;
 }
 
 .contact.grey h2 {

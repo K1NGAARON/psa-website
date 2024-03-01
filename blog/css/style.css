@@ -1,3 +1,7 @@
+.section.grey {
+    background-color: #F4F4F4;
+}
+
 .content-wrapper {
     display: flex;
     gap: 40px;

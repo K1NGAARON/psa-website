@@ -1,0 +1,35 @@
+.content-wrapper {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-wrapper .item {
+    flex: 1 0 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: var(--borderRadius);
+    background-color: var(--white);
+}
+
+.content-wrapper .item img {
+    border-top-right-radius: var(--borderRadius);
+    border-top-left-radius: var(--borderRadius);
+}
+
+.content-wrapper .item .content {
+    padding: 0 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-wrapper .item h3 {
+    font-size: 24px;
+}
+
+.content-wrapper .item a {
+    margin-top: 10px;
+}

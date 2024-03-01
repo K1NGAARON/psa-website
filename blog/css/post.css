@@ -1,3 +1,8 @@
+.banner.section .row h1,
+.banner.section .row p {
+    width: 65%;
+}
+
 .section.content .container {
     display: flex;
     flex-direction: column;

@@ -1,15 +1,9 @@
 const content = [
     {
-        title: "Blog number 1",
+        title: "Cheltenham Festival Fever: Exclusive Insights and Winning Tips Await!",
         body: "this is the intro text of the first blog.",
-        img: "/blog/title-1/img/banner.jpg",
-        url: "/blog/title-1/"
-    },
-    {
-        title: "Blog number 1",
-        body: "this is the intro text of the first blog.",
-        img: "/blog/title-1/img/banner.jpg",
-        url: "/blog/title-1/"
+        img: "/blog/cheltenham-festival-fever/img/banner.jpg",
+        url: "/blog/cheltenham-festival-fever/"
     },
 ];
 
@@ -24,9 +18,6 @@ function createCards(e) {
                     <h3>
                         ${item.title}
                     </h3>
-                    <p>
-                        ${item.body}
-                    </p>
                     <a href="${item.url}" class="">
                         Read more
                         <i class="fa-solid fa-angle-right"></i>

@@ -62,4 +62,12 @@
         font-size: 18px;
         margin: 40px 0 10px 0;
     }
+
+    .banner.section .row h1 {
+        font-size: 24px;
+    }
+
+    .banner.section .row h1, .banner.section .row p {
+        width: 100%;
+    }
 }

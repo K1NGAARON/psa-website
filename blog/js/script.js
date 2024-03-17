@@ -1,9 +1,9 @@
 const content = [
     {
-        title: "Cheltenham Festival Fever: Exclusive Insights and Winning Tips Await!",
+        title: "Aintree Festival Fever: Exclusive Insights and Winning Tips Await!",
         body: "this is the intro text of the first blog.",
-        img: "/blog/cheltenham-festival-fever/img/banner.jpg",
-        url: "/blog/cheltenham-festival-fever/"
+        img: "/blog/Aintree-festival-fever/img/banner.jpg",
+        url: "/blog/Aintree-festival-fever/"
     },
 ];
 

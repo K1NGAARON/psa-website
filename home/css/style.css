@@ -160,10 +160,11 @@
     width: 100%;
     gap: 60px;
     margin-top: 40px;
+    justify-content: center;
 }
 
 .memberships-wrapper .item {
-    flex: 1 0;
+    flex: 0 1 40%;
     display: flex;
     flex-direction: column;
     align-items: center;

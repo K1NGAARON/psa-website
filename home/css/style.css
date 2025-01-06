@@ -164,7 +164,7 @@
 }
 
 .memberships-wrapper .item {
-    flex: 0 1 40%;
+    flex: 1 0;
     display: flex;
     flex-direction: column;
     align-items: center;

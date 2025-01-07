@@ -20,10 +20,11 @@
     display: flex;
     flex-flow: row wrap;
     align-content: space-between;
+    justify-content: center;
 }
   
 .gallery-wrapper .item {
-    flex: 1 0 30%;
+    flex: 0 1 30%;
     padding: 10px;
 }
   

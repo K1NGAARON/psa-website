@@ -3,7 +3,7 @@ const galleryWrapper = document.querySelector('#gallery');
 const reviews = []
 
 // Size of Reviews Folder (+1)
-const reviewsLength = 56;
+const reviewsLength = 64;
 
 function shuffleArray(array) {
     for (var i = array.length - 1; i > 0; i--) {

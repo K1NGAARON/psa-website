@@ -1,0 +1,11 @@
+ul,
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section.banner h1,
+.section.banner p {
+    text-align: left!important;
+}

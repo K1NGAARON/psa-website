@@ -56,7 +56,7 @@ let animatedSection = document.getElementById("animated-section");
 
 function load() {
   animate(text1, 0, 15000, 3000);
-  animate(text2, 0, 190700, 3000);
+  animate(text2, 0, 210000, 3000);
   animate(text3, 0, 2100, 3000);
 }
 

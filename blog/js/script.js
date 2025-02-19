@@ -1,16 +1,9 @@
 const content = [
     {
-        title: "Cheltenham Festival Fever: Exclusive Insights and Winning Tips Await!",
+        title: "Looking Ahead to Cheltenham 2025!",
         body: "this is the intro text of the first blog.",
-        img: "/blog/cheltenham-festival-fever/img/banner.jpg",
-        url: "/blog/cheltenham-festival-fever/"
-    },
-    {
-        title: "Cheltenham Festival 2024: Pro Sports Advice Recap",
-        body: "this is some body",
-        // img: "/blog/cheltenham-festival-2024-recap/",
-        img: "/blog/cheltenham-festival-fever/img/banner.jpg",
-        url: "/blog/cheltenham-festival-2024-recap/"
+        img: "/blog/cheltenham-2025/img/banner.jpg",
+        url: "/blog/cheltenham-2025/"
     },
 ];
 

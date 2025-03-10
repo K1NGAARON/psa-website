@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var diffDays = Math.round((targetDate - today) / oneDay);
   
     // Update the modal title with the countdown
-    document.getElementById("modalTitle").innerText = "The Cheltenham festival is just " + diffDays + " days away!";
+    // document.getElementById("modalTitle").innerText = "The Cheltenham festival is just " + diffDays + " days away!";
   
     // Get the modal element and close button
     var modal = document.getElementById("myModal");

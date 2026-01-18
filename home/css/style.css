@@ -32,6 +32,18 @@
     border-radius: var(--borderRadius);
 }
 
+.banner .tag.opacity-1 {
+    font-size: 14px;
+    opacity: 1;
+    text-align: center;
+}
+
+@media (max-width: 560px) {
+   .banner .tag.opacity-1 {
+        font-size: 12px;
+    } 
+}
+
 .usp-wrapper {
     justify-content: center;
     width: 100%;
